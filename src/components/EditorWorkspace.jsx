@@ -66,7 +66,7 @@ export default function EditorWorkspace({ question, onBack }) {
     setActiveTab(0);
     
     try {
-      const res = await fetch('https://diversity-personal-checking-lamb.trycloudflare.com/api/v1/execute', {
+      const res = await fetch('http://3.131.90.95:8080/api/v1/execute', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ language, code, testCases: visibleTestCases }),
@@ -86,7 +86,7 @@ export default function EditorWorkspace({ question, onBack }) {
     setRevealedCount(0); // Reset the cascade animation
     
     try {
-      const res = await fetch('https://diversity-personal-checking-lamb.trycloudflare.com/api/v1/execute', {
+      const res = await fetch('http://3.131.90.95:8080/api/v1/execute', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ language, code, testCases: question.testCases }),
