@@ -5,17 +5,17 @@ const pythonQuestions = [
     id: "py1", title: "1. Python: Hello World", difficulty: "Easy", targetLanguage: "python", 
     description: "Print 'Hello Python' to standard output.", examples: "Output:\nHello Python", 
     testCases: [
-      { id: 1, input: "", expectedOutput: "Hello Python", isHidden: false },
-      { id: 2, input: "", expectedOutput: "Hello Python", isHidden: false },
-      { id: 3, input: "", expectedOutput: "Hello Python", isHidden: false },
-      { id: 4, input: "", expectedOutput: "Hello Python", isHidden: true },
-      { id: 5, input: "", expectedOutput: "Hello Python", isHidden: true },
-      { id: 6, input: "", expectedOutput: "Hello Python", isHidden: true },
-      { id: 7, input: "", expectedOutput: "Hello Python", isHidden: true },
-      { id: 8, input: "", expectedOutput: "Hello Python", isHidden: true },
-      { id: 9, input: "", expectedOutput: "Hello Python", isHidden: true },
-      { id: 10, input: "", expectedOutput: "Hello Python", isHidden: true },
-      { id: 11, input: "", expectedOutput: "Hello Python", isHidden: true }
+      { id: 1, input: "Hello Python", expectedOutput: "Hello Python", isHidden: false },
+      { id: 2, input: "Hello Python", expectedOutput: "Hello Python", isHidden: false },
+      { id: 3, input: "Hello Python", expectedOutput: "Hello Python", isHidden: false },
+      { id: 4, input: "Hello Python", expectedOutput: "Hello Python", isHidden: true },
+      { id: 5, input: "Hello Python", expectedOutput: "Hello Python", isHidden: true },
+      { id: 6, input: "Hello Python", expectedOutput: "Hello Python", isHidden: true },
+      { id: 7, input: "Hello Python", expectedOutput: "Hello Python", isHidden: true },
+      { id: 8, input: "Hello Python", expectedOutput: "Hello Python", isHidden: true },
+      { id: 9, input: "Hello Python", expectedOutput: "Hello Python", isHidden: true },
+      { id: 10, input: "Hello Python", expectedOutput: "Hello Python", isHidden: true },
+      { id: 11, input: "Hello Python", expectedOutput: "Hello Python", isHidden: true }
     ] 
   },
   { 
@@ -263,17 +263,17 @@ const javaQuestions = [
     id: "j1", title: "1. Java: Hello World", difficulty: "Easy", targetLanguage: "java", 
     description: "Print 'Hello Java' to standard output.", examples: "Output:\nHello Java", 
     testCases: [
-      { id: 1, input: "", expectedOutput: "Hello Java", isHidden: false },
-      { id: 2, input: "", expectedOutput: "Hello Java", isHidden: false },
-      { id: 3, input: "", expectedOutput: "Hello Java", isHidden: false },
-      { id: 4, input: "", expectedOutput: "Hello Java", isHidden: true },
-      { id: 5, input: "", expectedOutput: "Hello Java", isHidden: true },
-      { id: 6, input: "", expectedOutput: "Hello Java", isHidden: true },
-      { id: 7, input: "", expectedOutput: "Hello Java", isHidden: true },
-      { id: 8, input: "", expectedOutput: "Hello Java", isHidden: true },
-      { id: 9, input: "", expectedOutput: "Hello Java", isHidden: true },
-      { id: 10, input: "", expectedOutput: "Hello Java", isHidden: true },
-      { id: 11, input: "", expectedOutput: "Hello Java", isHidden: true }
+      { id: 1, input: "Hello Java", expectedOutput: "Hello Java", isHidden: false },
+      { id: 2, input: "Hello Java", expectedOutput: "Hello Java", isHidden: false },
+      { id: 3, input: "Hello Java", expectedOutput: "Hello Java", isHidden: false },
+      { id: 4, input: "Hello Java", expectedOutput: "Hello Java", isHidden: true },
+      { id: 5, input: "Hello Java", expectedOutput: "Hello Java", isHidden: true },
+      { id: 6, input: "Hello Java", expectedOutput: "Hello Java", isHidden: true },
+      { id: 7, input: "Hello Java", expectedOutput: "Hello Java", isHidden: true },
+      { id: 8, input: "Hello Java", expectedOutput: "Hello Java", isHidden: true },
+      { id: 9, input: "Hello Java", expectedOutput: "Hello Java", isHidden: true },
+      { id: 10, input: "Hello Java", expectedOutput: "Hello Java", isHidden: true },
+      { id: 11, input: "Hello Java", expectedOutput: "Hello Java", isHidden: true }
     ] 
   },
   { 
@@ -779,17 +779,17 @@ const cppQuestions = [
     id: "c1", title: "1. C++: Hello World", difficulty: "Easy", targetLanguage: "cpp", 
     description: "Print 'Hello C++' to standard output.", examples: "Output:\nHello C++", 
     testCases: [
-      { id: 1, input: "", expectedOutput: "Hello C++", isHidden: false },
-      { id: 2, input: "", expectedOutput: "Hello C++", isHidden: false },
-      { id: 3, input: "", expectedOutput: "Hello C++", isHidden: false },
-      { id: 4, input: "", expectedOutput: "Hello C++", isHidden: true },
-      { id: 5, input: "", expectedOutput: "Hello C++", isHidden: true },
-      { id: 6, input: "", expectedOutput: "Hello C++", isHidden: true },
-      { id: 7, input: "", expectedOutput: "Hello C++", isHidden: true },
-      { id: 8, input: "", expectedOutput: "Hello C++", isHidden: true },
-      { id: 9, input: "", expectedOutput: "Hello C++", isHidden: true },
-      { id: 10, input: "", expectedOutput: "Hello C++", isHidden: true },
-      { id: 11, input: "", expectedOutput: "Hello C++", isHidden: true }
+      { id: 1, input: "Hello C++", expectedOutput: "Hello C++", isHidden: false },
+      { id: 2, input: "Hello C++", expectedOutput: "Hello C++", isHidden: false },
+      { id: 3, input: "Hello C++", expectedOutput: "Hello C++", isHidden: false },
+      { id: 4, input: "Hello C++", expectedOutput: "Hello C++", isHidden: true },
+      { id: 5, input: "Hello C++", expectedOutput: "Hello C++", isHidden: true },
+      { id: 6, input: "Hello C++", expectedOutput: "Hello C++", isHidden: true },
+      { id: 7, input: "Hello C++", expectedOutput: "Hello C++", isHidden: true },
+      { id: 8, input: "Hello C++", expectedOutput: "Hello C++", isHidden: true },
+      { id: 9, input: "Hello C++", expectedOutput: "Hello C++", isHidden: true },
+      { id: 10, input: "Hello C++", expectedOutput: "Hello C++", isHidden: true },
+      { id: 11, input: "Hello C++", expectedOutput: "Hello C++", isHidden: true }
     ] 
   },
   { 
